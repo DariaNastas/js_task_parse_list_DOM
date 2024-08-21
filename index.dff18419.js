@@ -1,0 +1,2 @@
+document.querySelectorAll("[data-salary]");var a,r=document.querySelector("ul");function t(a){return+a.replace(/[$,]/g,"")}(a=Array.from(r.children)).sort(function(a,r){var e=t(a.dataset.salary);return t(r.dataset.salary)-e}),a.forEach(function(a){return r.appendChild(a)}),Array.from(r.children).map(function(a){return{name:a.dataset.name,position:a.dataset.position,salary:t(a.dataset.salary),age:parseInt(a.dataset.age,10)}});
+//# sourceMappingURL=index.dff18419.js.map
